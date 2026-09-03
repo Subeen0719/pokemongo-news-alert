@@ -139,7 +139,7 @@ def fetch_x_posts():
 def send_pushover(post):
     """Pushover로 알림 1건 발송."""
     message = (
-        f"{post['title']} 및 주소: {post['url']}"
+        f"{post['title']} | 주소: {post['url']}"
     )
 
     payload = {
