@@ -139,7 +139,6 @@ def fetch_x_posts():
 def send_pushover(post):
     """Pushover로 알림 1건 발송."""
     message = (
-        f"열람 위치: {post['source']}\n"
         f"{post['title']} 및 주소: {post['url']}"
     )
 
